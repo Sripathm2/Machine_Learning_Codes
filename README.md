@@ -13,7 +13,7 @@ This repository holds the code for  different machine learning techniques learne
 
 Please note: I am using a conda environment on an Apple M1 chip based computer. I do not use the GPU. Some parts of code might need some change to run with GPU. I will try to make the notebooks machine independent but not providing any guarantee of the same.
 
-##Current status of planned work:
+## Current status of planned work:
 
 | Topic/Technique   | Dataset | Jupyter Notebook File | 
 |-------|--------|-------|
@@ -40,7 +40,7 @@ Please note: I am using a conda environment on an Apple M1 chip based computer. 
 | Reinforced Learning | | <span style="color:Red">Not Started</span> |
 | Deep Learning | | <span style="color:Red">Not Started</span> |
 
-##My notes:
+## My notes:
 
 1) df.isnull().sum() is used to find nulls in dataset.
 2) For linear regression number of layers required around sqrt(number of features). 
