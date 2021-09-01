@@ -8,3 +8,5 @@ torch
 transformers
 matplotlib
 pandas
+scikit-learn
+torchvision
