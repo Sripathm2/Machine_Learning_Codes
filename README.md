@@ -19,26 +19,27 @@ Please note: I am using a conda environment on an Apple M1 chip based computer. 
 |-------|--------|-------|
 | Linear Regression | [Linear Regression](https://www.kaggle.com/andonians/random-linear-regression) | [Linear_Regrression_Linear_Regrression.ipynb](Jupyter_Notebooks/Linear_Regrression_Linear_Regrression.ipynb)|
 | Multiple Linear Regression | [Startup](https://www.kaggle.com/karthickveerakumar/startup-logistic-regression) | [Startup_Multiple_Linear_Regression.ipynb](Jupyter_Notebooks/Startup_Multiple_Linear_Regression.ipynb)|
-| Multiple Linear Regression | [Car Price Prediction](https://www.kaggle.com/hellbuoy/car-price-prediction) | <span style="color:orange">Next</span> |
+| Multiple Linear Regression | [Car Price Prediction](https://www.kaggle.com/hellbuoy/car-price-prediction) | Next |
 | Linear Classification | [Fish Market](https://www.kaggle.com/aungpyaeap/fish-market) | [Fish_Market_Linear_Classification.ipynb](Jupyter_Notebooks/Fish_Market_Linear_Classification.ipynb)|
 | Convolutional Neural Network (CNN) | MNIST | [MNIST_Convolutional_Neural_Networks.ipynb](Jupyter_Notebooks/MNIST_Convolutional_Neural_Networks.ipynb)|
+| Convolutional Neural Network (CNN) | Fashion MNIST | [Fashion_MNIST_Convolutional_Neural_Networks.ipynb](Jupyter_Notebooks/Fashion_MNIST_Convolutional_Neural_Networks.ipynb)|
 | Convolutional Neural Network (CNN) | CIFAR10 | [CIFAR10_Convolutional_Neural_Networks.ipynb](Jupyter_Notebooks/CIFAR10_Convolutional_Neural_Networks.ipynb)|
-| Polynomial Regression | | <span style="color:Red">Not Started</span> |
-| Support Vector Regression (SVR) | | <span style="color:Red">Not Started</span> |
-| Decision Tree Reggresion (DTR) | | <span style="color:Red">Not Started</span> |
-| Random Forest Regression | | <span style="color:Red">Not Started</span> |
-| Logistic Regression | | <span style="color:Red">Not Started</span> |
-| K nearest neighbors | | <span style="color:Red">Not Started</span> |
-| Support Vector Machine | | <span style="color:Red">Not Started</span> |
-| Kernel SVM | | <span style="color:Red">Not Started</span> |
-| Decision Tree Classification | | <span style="color:Red">Not Started</span> |
-| Random Forest Classification | | <span style="color:Red">Not Started</span> |
-| k Means Clustering | | <span style="color:Red">Not Started</span> |
-| hierarchical Clustering | | <span style="color:Red">Not Started</span> |
-| Apriori | | <span style="color:Red">Not Started</span> |
-| Eclat | | <span style="color:Red">Not Started</span> |
-| Reinforced Learning | | <span style="color:Red">Not Started</span> |
-| Deep Learning | | <span style="color:Red">Not Started</span> |
+| Polynomial Regression | | Not Started|
+| Support Vector Regression (SVR) | | Not Started|
+| Decision Tree Reggresion (DTR) | | Not Started|
+| Random Forest Regression | | Not Started|
+| Logistic Regression | | Not Started|
+| K nearest neighbors | | Not Started|
+| Support Vector Machine | | Not Started|
+| Kernel SVM | | Not Started|
+| Decision Tree Classification | | Not Started|
+| Random Forest Classification | | Not Started|
+| k Means Clustering | | Not Started|
+| hierarchical Clustering | | Not Started|
+| Apriori | | Not Started|
+| Eclat | | Not Started|
+| Reinforced Learning | | Not Started|
+| Deep Learning | | Not Started|
 
 ## My notes:
 
@@ -53,4 +54,5 @@ Please note: I am using a conda environment on an Apple M1 chip based computer. 
 4) For CNN input and output channels are 1 or 3, 1 is greyscale and 3 is rgb color. 
 5) Tensor need the image in a particular format of NCHW where N is number of images being passed, C is channel (1 or 3), h is height of image and w is the width of the image. 
 6) matplotlib takes image in the format of HWC. point 4 for what each stand for.
+7) For nn.linear always pass a list of number. You need to flatten it. 
 
