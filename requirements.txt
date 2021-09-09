@@ -4,6 +4,7 @@ tqdm
 notebook
 ipywidgets
 nltk
+numpy
 torch
 transformers
 matplotlib
