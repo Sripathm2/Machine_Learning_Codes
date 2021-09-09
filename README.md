@@ -24,7 +24,8 @@ Please note: I am using a conda environment on an Apple M1 chip based computer. 
 | Convolutional Neural Network (CNN) | MNIST | [MNIST_Convolutional_Neural_Networks.ipynb](Jupyter_Notebooks/MNIST_Convolutional_Neural_Networks.ipynb)|
 | Convolutional Neural Network (CNN) | Fashion MNIST | [Fashion_MNIST_Convolutional_Neural_Networks.ipynb](Jupyter_Notebooks/Fashion_MNIST_Convolutional_Neural_Networks.ipynb)|
 | Convolutional Neural Network (CNN) | CIFAR10 | [CIFAR10_Convolutional_Neural_Networks.ipynb](Jupyter_Notebooks/CIFAR10_Convolutional_Neural_Networks.ipynb)|
-| Recurrent Neural Networks (RNN) | Simple Cos Function | [Cos_Function_Recurrent_Neural_Networks.ipynb](Jupyter_Notebooks/Cos_Function_Recurrent_Neural_Networks.ipynb) |
+| Recurrent Neural Networks (RNN) | Cos Function | [Cos_Function_Recurrent_Neural_Networks.ipynb](Jupyter_Notebooks/Cos_Function_Recurrent_Neural_Networks.ipynb) |
+| Recurrent Neural Networks (RNN) | [Netflix Stock Price](https://www.kaggle.com/jainshukal/netflix-stock-price) | Not Started|
 | Polynomial Regression | | Not Started|
 | Support Vector Regression (SVR) | | Not Started|
 | Decision Tree Reggresion (DTR) | | Not Started|
