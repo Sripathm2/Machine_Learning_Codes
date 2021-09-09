@@ -19,7 +19,7 @@ Please note: I am using a conda environment on an Apple M1 chip based computer. 
 |-------|--------|-------|
 | Linear Regression | [Linear Regression](https://www.kaggle.com/andonians/random-linear-regression) | [Linear_Regrression_Linear_Regrression.ipynb](Jupyter_Notebooks/Linear_Regrression_Linear_Regrression.ipynb)|
 | Multiple Linear Regression | [Startup](https://www.kaggle.com/karthickveerakumar/startup-logistic-regression) | [Startup_Multiple_Linear_Regression.ipynb](Jupyter_Notebooks/Startup_Multiple_Linear_Regression.ipynb)|
-| Multiple Linear Regression | [Car Price Prediction](https://www.kaggle.com/hellbuoy/car-price-prediction) | Next |
+| Multiple Linear Regression | [Car Price Prediction](https://www.kaggle.com/hellbuoy/car-price-prediction) | [Car_Price_Prediction_Multiple_Linear_Regression.ipynb](Jupyter_Notebooks/Car_Price_Prediction_Multiple_Linear_Regression.ipynb) |
 | Linear Classification | [Fish Market](https://www.kaggle.com/aungpyaeap/fish-market) | [Fish_Market_Linear_Classification.ipynb](Jupyter_Notebooks/Fish_Market_Linear_Classification.ipynb)|
 | Convolutional Neural Network (CNN) | MNIST | [MNIST_Convolutional_Neural_Networks.ipynb](Jupyter_Notebooks/MNIST_Convolutional_Neural_Networks.ipynb)|
 | Convolutional Neural Network (CNN) | Fashion MNIST | [Fashion_MNIST_Convolutional_Neural_Networks.ipynb](Jupyter_Notebooks/Fashion_MNIST_Convolutional_Neural_Networks.ipynb)|
@@ -40,6 +40,7 @@ Please note: I am using a conda environment on an Apple M1 chip based computer. 
 | Eclat | | Not Started|
 | Reinforced Learning | | Not Started|
 | Deep Learning | | Not Started|
+| Distributed Application | | Not Started|
 
 ## My notes:
 
