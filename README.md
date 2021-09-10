@@ -58,4 +58,5 @@ Please note: I am using a conda environment on an Apple M1 chip based computer. 
 5) Tensor need the image in a particular format of NCHW where N is number of images being passed, C is channel (1 or 3), h is height of image and w is the width of the image. 
 6) matplotlib takes image in the format of HWC. point 4 for what each stand for.
 7) For nn.linear always pass a list of number. You need to flatten it. 
+8) for lstm you have a hidden state and LSTM means long short term mem. you have a seq of events and one prediction out for it, consider hidden state as short term and it needs to be reset for each individual input lstm takes both h_0 and c_0 (https://pytorch.org/docs/stable/generated/torch.nn.LSTM.html).  
 
