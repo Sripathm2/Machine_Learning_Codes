@@ -26,6 +26,7 @@ Please note: I am using a conda environment on an Apple M1 chip based computer. 
 | Convolutional Neural Network (CNN) | CIFAR10 | [CIFAR10_Convolutional_Neural_Networks.ipynb](Jupyter_Notebooks/CIFAR10_Convolutional_Neural_Networks.ipynb)|
 | Recurrent Neural Networks (RNN) | Cos Function | [Cos_Function_Recurrent_Neural_Networks.ipynb](Jupyter_Notebooks/Cos_Function_Recurrent_Neural_Networks.ipynb) |
 | Recurrent Neural Networks (RNN) | Sin Function | [Sin_Function_Recurrent_Neural_Networks.ipynb](Jupyter_Notebooks/Sin_Function_Recurrent_Neural_Networks.ipynb) |
+| Recurrent Neural Networks (RNN) | [Federal Reserve Economic Database Sale Of Bevrages](https://fred.stlouisfed.org/series/S4248SM144NCEN) | [Federal_Reserve_Economic_Database_Sale_Of_Bevrages_Recurrent_Neural_Networks.ipynb](Jupyter_Notebooks/Federal_Reserve_Economic_Database_Sale_Of_Bevrages_Recurrent_Neural_Networks.ipynb) |
 | Recurrent Neural Networks (RNN) | [Netflix Stock Price](https://www.kaggle.com/jainshukal/netflix-stock-price) | Not Started|
 | Polynomial Regression | | Not Started|
 | Support Vector Regression (SVR) | | Not Started|
@@ -59,5 +60,6 @@ Please note: I am using a conda environment on an Apple M1 chip based computer. 
 5) Tensor need the image in a particular format of NCHW where N is number of images being passed, C is channel (1 or 3), h is height of image and w is the width of the image. 
 6) matplotlib takes image in the format of HWC. point 4 for what each stand for.
 7) For nn.linear always pass a list of number. You need to flatten it. 
-8) for lstm you have a hidden state and LSTM means long short term mem. you have a seq of events and one prediction out for it, consider hidden state as short term and it needs to be reset for each individual input lstm takes both h_0 and c_0 (https://pytorch.org/docs/stable/generated/torch.nn.LSTM.html).  
+8) for lstm you have a hidden state and LSTM means long short term mem. you have a seq of events and one prediction out for it, consider hidden state as short term and it needs to be reset for each individual input lstm takes both h_0 and c_0 (https://pytorch.org/docs/stable/generated/torch.nn.LSTM.html).
+9) For future do not normalize the complete train, test and val together. this leads to data leakage as mean and st deviation is generally used for normalizing. 
 
