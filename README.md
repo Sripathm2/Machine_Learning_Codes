@@ -21,13 +21,16 @@ Please note: I am using a conda environment on an Apple M1 chip based computer. 
 | Multiple Linear Regression | [Startup](https://www.kaggle.com/karthickveerakumar/startup-logistic-regression) | [Startup_Multiple_Linear_Regression.ipynb](Jupyter_Notebooks/Startup_Multiple_Linear_Regression.ipynb)|
 | Multiple Linear Regression | [Car Price Prediction](https://www.kaggle.com/hellbuoy/car-price-prediction) | [Car_Price_Prediction_Multiple_Linear_Regression.ipynb](Jupyter_Notebooks/Car_Price_Prediction_Multiple_Linear_Regression.ipynb) |
 | Linear Classification | [Fish Market](https://www.kaggle.com/aungpyaeap/fish-market) | [Fish_Market_Linear_Classification.ipynb](Jupyter_Notebooks/Fish_Market_Linear_Classification.ipynb)|
+| Linear Classification | [Credit Card Fraud Detection](https://www.kaggle.com/mlg-ulb/creditcardfraud) | Not Started |
 | Convolutional Neural Network (CNN) | MNIST | [MNIST_Convolutional_Neural_Networks.ipynb](Jupyter_Notebooks/MNIST_Convolutional_Neural_Networks.ipynb)|
 | Convolutional Neural Network (CNN) | Fashion MNIST | [Fashion_MNIST_Convolutional_Neural_Networks.ipynb](Jupyter_Notebooks/Fashion_MNIST_Convolutional_Neural_Networks.ipynb)|
 | Convolutional Neural Network (CNN) | CIFAR10 | [CIFAR10_Convolutional_Neural_Networks.ipynb](Jupyter_Notebooks/CIFAR10_Convolutional_Neural_Networks.ipynb)|
+| Convolutional Neural Network (CNN) | [A Large Scale Fish Dataset](https://www.kaggle.com/crowww/a-large-scale-fish-dataset)| Not Started |
 | Recurrent Neural Networks (RNN) | Cos Function | [Cos_Function_Recurrent_Neural_Networks.ipynb](Jupyter_Notebooks/Cos_Function_Recurrent_Neural_Networks.ipynb) |
 | Recurrent Neural Networks (RNN) | Sin Function | [Sin_Function_Recurrent_Neural_Networks.ipynb](Jupyter_Notebooks/Sin_Function_Recurrent_Neural_Networks.ipynb) |
 | Recurrent Neural Networks (RNN) | [Federal Reserve Economic Database Sale Of Bevrages](https://fred.stlouisfed.org/series/S4248SM144NCEN) | [Federal_Reserve_Economic_Database_Sale_Of_Bevrages_Recurrent_Neural_Networks.ipynb](Jupyter_Notebooks/Federal_Reserve_Economic_Database_Sale_Of_Bevrages_Recurrent_Neural_Networks.ipynb) |
-| Recurrent Neural Networks (RNN) | [Netflix Stock Price](https://www.kaggle.com/jainshukal/netflix-stock-price) | Not Started|
+| Recurrent Neural Networks (RNN) | [Netflix Stock Price](https://www.kaggle.com/jainshukal/netflix-stock-price) | [Netflix_Stock_Price_Recurrent_Neural_Networks.ipynb](Jupyter_Notebooks/Netflix_Stock_Price_Recurrent_Neural_Networks.ipynb) |
+| Natural Language Processing (NLP) | [New York Times Comments](https://www.kaggle.com/aashita/nyt-comments) | Not Started |
 | Polynomial Regression | | Not Started|
 | Support Vector Regression (SVR) | | Not Started|
 | Decision Tree Reggresion (DTR) | | Not Started|
@@ -61,5 +64,5 @@ Please note: I am using a conda environment on an Apple M1 chip based computer. 
 6) matplotlib takes image in the format of HWC. point 4 for what each stand for.
 7) For nn.linear always pass a list of number. You need to flatten it. 
 8) for lstm you have a hidden state and LSTM means long short term mem. you have a seq of events and one prediction out for it, consider hidden state as short term and it needs to be reset for each individual input lstm takes both h_0 and c_0 (https://pytorch.org/docs/stable/generated/torch.nn.LSTM.html).
-9) For future do not normalize the complete train, test and val together. this leads to data leakage as mean and st deviation is generally used for normalizing. 
+9) For future do not normalize the complete train, test and val together(Split before normalizing. this leads to data leakage as mean and st deviation is generally used for normalizing. 
 
